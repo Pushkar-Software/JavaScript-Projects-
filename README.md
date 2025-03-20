@@ -12,4 +12,4 @@ The counter value is also **saved using localStorage**, so it remains even after
 ## Installation & Setup
 1. Clone the repository or download the files.
    ```sh
-   git clone https://github.com/your-username/counter-app.git
+   git clone git@github.com:Pushkar-Software/JavaScript-Projects-.git
