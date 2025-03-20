@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease;
+}
+
+.clock {
+    font-size: 80px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ffcc00;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ffcc00; }
+    100% { text-shadow: 0 0 20px #ff66ff, 0 0 30px #00ffcc, 0 0 40px #ff9900; }
+}
