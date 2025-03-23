@@ -1,0 +1,68 @@
+/* Apply a nice background gradient */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+/* Style the quote container */
+#quote-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the quote text */
+#quote-display {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Style the button */
+button {
+    background: #ff6f61;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #ff3d3d;
+    transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
