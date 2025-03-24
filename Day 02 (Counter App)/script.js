@@ -1,5 +1,4 @@
 let count = localStorage.getItem("count") ? parseInt(localStorage.getItem("count")) : 0;
-
 // Select elements
 const countDisplay = document.getElementById("count");
 const decreaseBtn = document.getElementById("decrease");
