@@ -37,5 +37,9 @@ You can modify the colors, font size, or animations in the CSS file to match you
 ## License
 This project is **open-source** and free to use for personal or commercial projects.
 
+##installation & Setup
+Clone the repository or download the files.
+git clone git@github.com:Pushkar-Software/JavaScript-Projects-.git
+
 🚀 **Enjoy your stylish Digital Clock!**
 
